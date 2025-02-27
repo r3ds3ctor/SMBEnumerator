@@ -50,7 +50,7 @@ To enumerate users and shares on an SMB server:
 
   ```bash
 
-python smbenumerator.py -u "DOMAIN\\User" -p "Password" -users -shares 192.168.1.1
+python3 smbenumerator.py -u "DOMAIN\\User" -p "Password" -users -shares 192.168.1.1
   ```
 
 Available Options
